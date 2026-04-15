@@ -10,7 +10,7 @@ Create professional resumes with drag-and-drop editing, real-time AI optimizatio
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6)](https://www.typescriptlang.org/)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ed)](https://hub.docker.com/r/twwch/jadeai)
+
 
 </div>
 
@@ -245,8 +245,8 @@ docker run -d -p 3000:3000 \
 #### Installation
 
 ```bash
-git clone https://github.com/twwch/JadeAI.git
-cd JadeAI
+
+cd NexoraAI
 
 pnpm install
 cp .env.example .env.local
@@ -295,7 +295,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `AUTH_ENABLED` | No | `false` | Enable Google OAuth (`true`) or use fingerprint mode (`false`) |
 | `GOOGLE_CLIENT_ID` | When OAuth | — | Google OAuth client ID |
 | `GOOGLE_CLIENT_SECRET` | When OAuth | — | Google OAuth client secret |
-| `APP_NAME` | No | `JadeAI` | Application display name |
+| `APP_NAME` | No | `NexoraAI` | Application display name |
 | `DEFAULT_LOCALE` | No | `zh` | Default language: `zh` or `en` |
 
 ## Scripts
@@ -355,7 +355,7 @@ src/
 
 ## Templates
 
-JadeAI includes **50 professionally designed resume templates** covering a wide range of styles and industries:
+NexoraAI includes **50 professionally designed resume templates** covering a wide range of styles and industries:
 
 <details>
 <summary>View all 50 templates</summary>
@@ -451,7 +451,7 @@ Contributions are welcome! Here's how to get started:
 <details>
 <summary><b>How does AI configuration work?</b></summary>
 
-JadeAI does not require server-side AI API keys. Each user configures their own AI provider (OpenAI, Anthropic, or custom endpoint), API key, and model in **Settings > AI** within the app. API keys are stored in the browser's local storage and are never sent to the server for storage.
+NexoraAI does not require server-side AI API keys. Each user configures their own AI provider (OpenAI, Anthropic, or custom endpoint), API key, and model in **Settings > AI** within the app. API keys are stored in the browser's local storage and are never sent to the server for storage.
 
 </details>
 
@@ -465,7 +465,7 @@ Yes. Set the `DB_TYPE` environment variable to `sqlite` or `postgresql`. SQLite 
 <details>
 <summary><b>How does authentication work without OAuth?</b></summary>
 
-When `AUTH_ENABLED=false` (default), JadeAI uses browser fingerprinting via FingerprintJS. A unique fingerprint ID is generated for each browser and used as the user identifier. No login screen is shown — users can start building resumes immediately.
+When `AUTH_ENABLED=false` (default), NexoraAI uses browser fingerprinting via FingerprintJS. A unique fingerprint ID is generated for each browser and used as the user identifier. No login screen is shown — users can start building resumes immediately.
 
 </details>
 
@@ -476,10 +476,4 @@ PDF export uses Puppeteer Core with @sparticuz/chromium. Each of the 50 template
 
 </details>
 
-## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=twwch/JadeAI&type=date&legend=top-left)](https://www.star-history.com/#twwch/JadeAI&type=date&legend=top-left)
-
-## License
-
-[Apache License 2.0](LICENSE)
