@@ -14,19 +14,6 @@ Create professional resumes with drag-and-drop editing, real-time AI optimizatio
 
 </div>
 
----
-
-## Community
-
-Join our groups for discussion and support:
-
-[![Linux.do](https://img.shields.io/badge/Linux.do-Community-blue)](https://linux.do/)
-
-
-Lark Group
-
-![lark-chat](images/lark.png)
-
 ## Recent Updates
 
 ### v0.3.4 · Brand Color System & Theme Switching
@@ -85,13 +72,6 @@ Lark Group
 |:---:|:---:|
 | ![Interview List](images/面试列表.png) | ![Interview Report](images/面试报告.png) |
 
-## Deployment Video
-
-Watch the full deployment walkthrough on Bilibili:
-
-[![Deployment Video](https://i0.hdslb.com/bfs/archive/deployment-preview.jpg)](https://www.bilibili.com/video/BV1h7wQzSEYe/)
-
-> [Watch on Bilibili →](https://www.bilibili.com/video/BV1h7wQzSEYe/)
 
 ## Features
 
